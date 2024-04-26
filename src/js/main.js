@@ -217,7 +217,7 @@ function encodeRFC3986(str) {
         // Compartir en LinkedIn
         const url = `https://www.linkedin.com/feed/?linkOrigin=LI_BADGE&shareActive=true`;
         window.open(url, '_blank');
-      } else if (modalShareButton.innerHTML.includes('nuevaOpcion')) {
+      } else if (modalShareButton.innerHTML.includes('otro')) {
         // Compartir en Nueva Opcion
         if (navigator.share) {
           navigator.share({
